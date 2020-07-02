@@ -1,4 +1,4 @@
-package com.nekisse.book.springboot.service.posts;
+package com.nekisse.book.springboot.service;
 
 import com.nekisse.book.springboot.domain.posts.Posts;
 import com.nekisse.book.springboot.domain.posts.PostsRepository;
@@ -8,8 +8,6 @@ import com.nekisse.book.springboot.web.dto.PostsUpdateRequestDto;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-
-import java.util.Optional;
 
 @RequiredArgsConstructor
 @Service

@@ -1,7 +1,7 @@
 package com.nekisse.book.springboot.web;
 
 
-import com.nekisse.book.springboot.service.posts.PostsService;
+import com.nekisse.book.springboot.service.PostsService;
 import com.nekisse.book.springboot.web.dto.PostsResponseDto;
 import com.nekisse.book.springboot.web.dto.PostsSaveRequestDto;
 import com.nekisse.book.springboot.web.dto.PostsUpdateRequestDto;
